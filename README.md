@@ -1,4 +1,4 @@
-# dropto-run
+# Dropto
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dropto-run is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dropto.run/
+Dropto provides instant static site hosting powered by AI. Users can drop a folder, markdown, PDF, Word, or Excel files and have them published as a live site on a global edge network without sign‑up, build steps, or configuration. The platform offers a Docs section, pricing details, and various hosting options like markdown, Vite, and forms. It also features AI‑generated content publishing, password protection, and a feedback system, aiming to simplify website deployment for developers and creators.
+
+**Areas:** Hosting · AI · StaticSite · DeveloperTools · Cloud
+
+## Dropto on APIs.io
+
+Everything profiled for Dropto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dropto-run/](https://apis.io/providers/dropto-run/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Dropto Abuse API](https://apis.io/apis/dropto-run/dropto-run-abuse-api/) — Reporting a published site for phishing, malware or other misuse. Open to anybody with no account and no credential, deliberately: requiring one would cost…
+- [Dropto Account API](https://apis.io/apis/dropto-run/dropto-run-account-api/) — The account a site belongs to, the people who can reach it, and the invitations that add them. An account is the unit everything else hangs from — sites,…
+- [Dropto Announcements API](https://apis.io/apis/dropto-run/dropto-run-announcements-api/) — The Announcements API from Dropto — 1 operation(s) for announcements.
+- [Dropto Auth API](https://apis.io/apis/dropto-run/dropto-run-auth-api/) — Signing in: the browser's redirect through Google, and the two flows a command line uses — one that can open a browser, and one that shows a code to approve…
+- [Dropto Billing API](https://apis.io/apis/dropto-run/dropto-run-billing-api/) — Subscriptions, seats and invoices, through the payment provider that is the merchant of record. Publishing is free with or without an account; what is…
+- [Dropto Deploys API](https://apis.io/apis/dropto-run/dropto-run-deploys-api/) — One publish, from asking for upload addresses to putting a version live. Versions are immutable and are never written over, so promoting an earlier one is a…
+- [Dropto Health API](https://apis.io/apis/dropto-run/dropto-run-health-api/) — Liveness for the control plane, and the endpoint the browser reports its own errors to. Nothing here needs a credential, and nothing here touches a site:…
+- [Dropto Plans API](https://apis.io/apis/dropto-run/dropto-run-plans-api/) — The tiers and every ceiling they carry, read from the same table the server enforces against. The pricing page and the dashboard both read this, which is…
+- [Dropto Promotions API](https://apis.io/apis/dropto-run/dropto-run-promotions-api/) — The Promotions API from Dropto — 3 operation(s) for promotions.
+- [Dropto Site folders API](https://apis.io/apis/dropto-run/dropto-run-site-folders-api/) — The Site folders API from Dropto — 3 operation(s) for site folders.
+- [Dropto Sites API](https://apis.io/apis/dropto-run/dropto-run-sites-api/) — A site, its address, and everything that is true of it rather than of one publish: the subdomain, custom domains and their certificates, a password, an…
+- [Dropto Support API](https://apis.io/apis/dropto-run/dropto-run-support-api/) — The Support API from Dropto — 1 operation(s) for support.
+- [Dropto Tokens API](https://apis.io/apis/dropto-run/dropto-run-tokens-api/) — Long-lived credentials for publishing from a script, a CI job or an agent. A token is shown once when it is created and is recoverable nowhere afterwards,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dropto Run Agentic Access](https://apis.io/agentic-access/dropto-run/dropto-run-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [MeResponse](https://apis.io/schemas/dropto-run/dropto-run-me-response/)
+- [SiteDetail](https://apis.io/schemas/dropto-run/dropto-run-site-detail/)
+- [SiteDomainResponse](https://apis.io/schemas/dropto-run/dropto-run-site-domain-response/)
+- [SiteSettingsResponse](https://apis.io/schemas/dropto-run/dropto-run-site-settings-response/)
+- [SiteTrafficOverview](https://apis.io/schemas/dropto-run/dropto-run-site-traffic-overview/)
+- [UpdateSiteSettingsRequest](https://apis.io/schemas/dropto-run/dropto-run-update-site-settings-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dropto Run Context](https://apis.io/jsonld/dropto-run/dropto-run-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Dropto API Rules](https://apis.io/rules/dropto-run/dropto-run-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dropto Run Authentication](https://apis.io/security/dropto-run/dropto-run-authentication/)
+- [Dropto Run Domain Security](https://apis.io/security/dropto-run/dropto-run-domain-security/)
+- [Dropto Run Vulnerability Disclosure](https://apis.io/security/dropto-run/dropto-run-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dropto Run Plans Pricing](https://apis.io/plans/dropto-run/dropto-run-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dropto.run/)
+- [Documentation](https://dropto.run/docs)
+- [API reference](https://dropto.run/llms.txt)
+- [Pricing](https://dropto.run/pricing)
+- [Support](https://dropto.run/faq)
+- [Changelog](https://dropto.run/changelog)
+- [Blog](https://dropto.run/blog)
+- [Security](https://dropto.run/contact)
+- [Terms of service](https://dropto.run/terms)
+
+## API Evangelist rating
+
+**Kin Score 54.7** — strong · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 56.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 49.5 |
+
+**Agent readiness 35.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dropto-run/](https://apis.io/providers/dropto-run/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Dropto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dropto-run/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
